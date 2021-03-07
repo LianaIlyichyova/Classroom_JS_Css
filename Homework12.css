@@ -1,0 +1,291 @@
+
+
+body{
+  text-align: center;
+  margin: 0;
+}
+
+#body{
+  background: no-repeat center center fixed; 
+
+  background-size: cover;
+  }
+
+h2{
+  color: hsl(39, 82%, 47%) ;
+  padding-bottom: -20px;
+}
+
+p{
+  font-size: 12px;
+  color: white;
+  margin-left: -200px;
+}
+
+input{
+  font-size: 20px;
+  border-color: grey;
+  margin-top: -7px;
+  background-color: white;
+  color: hsl(39, 82%, 47%);
+  border-style: inset;
+}
+
+input:focus{
+  outline: none !important;
+  font-size: 20px;
+  border-color: grey;
+  background-color: white;
+  color: black;
+}
+
+.button{
+  font-size: 15px;
+  margin-top: 15px;
+  width: 100px;
+  height: 25px;
+}
+
+.button:focus{
+  font-size: 15px;
+  margin-top: 15px;
+  background-color:  hsl(39, 82%, 47%);
+}
+
+.falseUsername{
+  margin-left: 20px
+}
+
+
+label{
+  color: white;
+  display: inline;
+  margin-left: 30px;
+}
+
+.check{
+  margin-top: 30px;
+}
+
+
+#checkbox1 { 
+  width: 0px;
+  height: 0px;
+  margin-top: -30px;
+}
+
+
+#checkbox2 { 
+  width: 0px;
+  height: 0px;
+  margin-top: -30px;
+}
+
+input[type="checkbox"] {
+  vertical-align: middle; 
+  height: 4px;
+position: relative;
+padding-left: 35px;
+margin-left: 10px;
+padding-top: -15px;
+font: 14px/20px 'Open Sans', Arial, sans-serif;
+color: #ddd;
+cursor: pointer;
+}
+
+input[type="checkbox"] :last-child { margin-bottom: 0; }
+
+input[type="checkbox"]:before {
+content: '';
+display: block;
+width: 20px;
+height: 20px;
+border: 1px solid white;
+position: absolute;
+left: 0;
+top: 0;
+opacity: .6;
+-webkit-transition: all .12s, border-color .08s;
+transition: all .12s, border-color .08s;
+}
+
+input[type="checkbox"]:checked:before {
+width: 10px;
+top: -5px;
+left: 5px;
+border-radius: 0;
+opacity: 1;
+border-top-color: transparent;
+border-left-color: transparent;
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+
+#username:invalid{
+  border-color:  hsl(39, 82%, 47%);
+  border-width: 3px;
+}
+
+
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    height: 46px;
+    width: 138px;
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    top: 15%;
+    left: 3%;
+    -webkit-left: 3%;
+    -moz-left: 3%;
+    -o-left: 3%;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    background-color: white;
+    width: 138px;
+    height: 250px;
+  }
+  
+  .dropdown-content p {
+    color: grey;
+    display: block;
+    position: absolute;
+    width: 115px;
+    height: 200px;
+    margin-left: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    width: 138px;
+    height: 250px;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:  hsl(39, 82%, 47%);
+  }
+
+
+  #logout{
+    display: inline-block;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+  }
+
+a{
+  font-size: 20px;
+}
+
+
+table{
+  top: 30%;
+  background-color: white;
+  opacity: 0.8;
+  position: absolute; 
+  left: 25%;
+  -webkit-left: 25%;
+  -moz-left: 25%;
+  -o-left: 25%;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  font-size: 15px;
+  color: black;
+
+}
+
+th{
+  height: 25px;
+  width: 25px;
+}
+
+.td{
+  width: 25px;
+  height: 25px;
+}
+
+.tdInput{
+  margin-top: 2px;
+  width: 25px;
+  height: 25px;
+  border-color: grey;
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  
+}
+
+
+.tdInput:focus{
+  margin-top: 2px;
+  width: 25px;
+  height: 25px;
+  border-color: grey;
+  color: black;
+  text-align: center;
+}
+
+
+#dropdownMenu {
+  height: 25px;
+  width: 130px;
+  display: inline-block;
+  position: absolute;
+  top: 15%;
+  left: 200px;
+  -webkit-left: 200px;
+  -moz-left: 200px;
+  -o-left: 200px;
+}
+
+
+#dropdownMenu:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  width: 138px;
+  height: 250px;
+}
+
+#dropdownMenu:hover .dropbtn {
+  background-color:  hsl(39, 82%, 47%);
+}
+
+#dropdownMenu .dropbtn {
+  background-color: white;
+  height: 46px;
+  width: 138px;
+  color: black;
+
+}
+
+
+.dropdown-content a {
+  color: grey;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
